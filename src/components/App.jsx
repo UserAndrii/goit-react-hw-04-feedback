@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 import Wrapper from './App.styled';
-import Section from './Section/Section';
-import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
-import Statistics from './Statistics/Statistics';
-import Notification from './Notification/Notification';
+import Section from './Section';
+import FeedbackOptions from './FeedbackOptions';
+import Statistics from './Statistics';
+import Notification from './Notification';
 
 const App = () => {
   const [good, setGood] = useState(0);
